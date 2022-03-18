@@ -38,7 +38,7 @@ body {
 }
 
 .hero {
-  background-image: url("img/header-shapes-mobile.png"), url("img/header-background-mobile.png");
+  background-image: url("../img/header-shapes-mobile.png"), url("../img/header-background-mobile.png");
   background-repeat: no-repeat, no-repeat;
   background-size: cover, 100% 100%;
   padding-top: 114px;
