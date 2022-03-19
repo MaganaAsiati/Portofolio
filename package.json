@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/MaganaAsiati/Portofolio#readme",
   "devDependencies": {
+    "@hint/connector-local": "^3.2.16",
     "hint": "^6.1.10",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
