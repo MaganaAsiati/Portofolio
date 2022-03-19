@@ -3,14 +3,14 @@
 
 # Portofolio
 
-portofolio: setup and mobile version skeleton
+## Description
 
+> This is my  portofolio which discribe my qualification. And here you found my recent works.  
 
-## Built With
+- ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
 
 ## Getting Started
 
