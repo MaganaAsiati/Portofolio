@@ -209,6 +209,7 @@ body {
   border: 1px solid #7a869a;
   height: 552px;
   width: 327px;
+  margin-bottom: 2.5rem;
   left: 24px;
   top: 114px;
   border-radius: 16px;
@@ -248,10 +249,24 @@ body {
 }
 
 .see-btn {
-  width: 100px;
-  height: 24px;
-  left: 12px;
-  top: 12px;
+  font-size: 18px;
   color: #396df2;
-  padding: 8px 12px;
+  padding: 12px;
+  background-color: transparent;
+  margin-top: 2rem;
+  border: 1px solid #396df2;
+  border-radius: 6px;
+}
+
+.lang-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.langage-item {
+  background: #ebebff;
+  border-radius: 8px;
+  padding: 4px;
+  margin: 0 8px;
 }
