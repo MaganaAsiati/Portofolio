@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700&display=swap");
 
+
 * {
   padding: 0;
   margin: 0;
@@ -105,9 +106,9 @@ body {
 
 .hero ul {
   list-style: none;
-}
 
 .headline-img {
+
   display: -webkit-box;
   display: flex;
   margin-top: 12px;
@@ -115,6 +116,7 @@ body {
   justify-content: flex-start;
   gap: 20px;
 }
+
 
 .contact {
   background-image: url("../img/header-shapes-mobile.png"), url("../img/contact_me.png");
@@ -490,3 +492,4 @@ body {
   width: 100%;
   margin: 10px 0;
 }
+
