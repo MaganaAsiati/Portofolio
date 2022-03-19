@@ -5,6 +5,8 @@
   margin: 0;
   box-sizing: border-box;
   list-style: none;
+  border: none;
+  text-decoration: none;
 }
 
 body {
@@ -105,7 +107,7 @@ body {
   list-style: none;
 }
 
-.hero .headline-img {
+.headline-img {
   display: -webkit-box;
   display: flex;
   margin-top: 12px;
@@ -214,6 +216,10 @@ body {
   top: 114px;
   border-radius: 16px;
   padding: 16px;
+  background-color: #fff;
+  justify-content: flex-start;
+  align-items: flex-start;
+  
 }
 
 .card-image {
@@ -260,13 +266,229 @@ body {
 
 .lang-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
 .langage-item {
   background: #ebebff;
   border-radius: 8px;
-  padding: 4px;
+  padding: 2px 4px;
   margin: 0 8px;
+  font-size: 13px;
+  color: #396df2;
+  border-color: #396df2;
+}
+
+.about-myself {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.about-myself .primary-text {
+  color:#172B4D;
+  font-size: 32px;
+}
+
+.about-myself .secondary-text {
+  margin: 15px 0;
+}
+
+.about-myself .headline {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #7F8CFF;
+}
+
+.get-resume {
+  padding: 14px 55px;
+  border-radius: 9px;
+  font-size: 17px;
+  color: #396DF2;
+  border: 1px solid #396DF2;
+  background: transparent;
+  margin: 15px 0;
+}
+
+.about-me {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #fff;
+  border-top-right-radius: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+.about-me .title {
+  max-width: 300px;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #172b4d;
+  padding: 3rem 2.5rem 0 2.5rem;
+}
+
+.about-me .info {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #344563;
+  padding: 0 2.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-me .connect {
+  color: #7f8cff;
+  font-weight: 500;
+  padding: 1rem 2.5rem;
+  margin-bottom: 2rem;
+}
+
+
+.about-me .knowledges {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+}
+
+.knowledges .knowledge {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 3.5rem;
+}
+
+.knowledge .kn_1 {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 400;
+  position: relative;
+  padding: 10px 0;
+  color: #000;
+}
+
+.knowledges .knowledge .kn_1 span i {
+  color: #acb7c3;
+}
+
+.knowledges .knowledge .kn_1::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #dfe1e6;
+}
+
+.knowledges .knowledge:first-child .kn_1::after {
+  display: none;
+}
+
+.knowledge .languages {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.knowledge .languages li {
+  display: flex;
+  align-items: center;
+  background-color: #f7f7f9;
+  height: 66.72px;
+  width: 100%;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+}
+
+.knowledge .languages li img {
+  padding: 0 1.8rem;
+}
+
+.knowledge .languages li a {
+  color: #253858;
+  font-size: 15px;
+}
+
+.knowledge .frameworks {
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 3rem;
+  margin-top: 2rem;
+  display: none;
+}
+
+.knowledge .frameworks li {
+  display: flex;
+  align-items: center;
+  background-color: #f7f7f9;
+  height: 66.72px;
+  width: 100%;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+}
+
+.knowledge .frameworks li img {
+  padding: 0 1.8rem;
+}
+
+.knowledge .frameworks li a {
+  color: #253858;
+  font-size: 15px;
+}
+
+.social-media {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  margin-top: 2.4rem;
+}
+
+.social-media svg {
+  margin-right: 1.8rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem;
+  border: 1px solid #6070ff;
+  border-radius: 1rem;
+  color: #396df2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  transition: ease color 2s;
+}
+
+.about-me .resume-btn {
+  margin-left: 2rem;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.cards-container {
+  background-color: #E5E5E5;
+}
+
+.languages-list-container {
+  width: 100%;
+  margin: 10px 0;
 }
