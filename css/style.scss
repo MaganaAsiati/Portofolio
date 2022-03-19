@@ -89,7 +89,7 @@ flex-grow: 0;
 margin: 12px 0px;
 }
 
-.contact {
+.headline {
 position: static;
 left: 0px;
 top: 0px;
@@ -109,7 +109,7 @@ ul {
   
 
 }
-.contact-img {
+.headline-img {
   display: flex;
   margin-top: 12px;
   padding-left: 0;
@@ -118,6 +118,31 @@ ul {
 
 }
 }
+.contact {
+background-image: url("../img/header-shapes-mobile.png"), url("../img/contact_me.png");
+background-repeat: no-repeat, no-repeat;
+background-size: cover, 100% 100%;
+padding-top: 114px;
+padding-bottom: 114px;
+padding-left: 24px;
+padding-right: 24px;
 
+.first-text-contact{
+  
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+
+}
+.second-text-contact {
+
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #ebebff;
+  text-align: center;
+}
+}
 
 
