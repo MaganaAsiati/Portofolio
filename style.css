@@ -191,13 +191,14 @@ body {
   box-sizing: border-box;
 }
 
-.container-former {
+.container-form {
   display: flex;
   row-gap: 18px;
   width: 90%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: solid red;
 }
 
 .flex-center-culomn {
@@ -489,4 +490,10 @@ body {
 .languages-list-container {
   width: 100%;
   margin: 10px 0;
+}
+.contact-input {
+
+  flex-direction: column;
+
+
 }
