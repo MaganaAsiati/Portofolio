@@ -546,7 +546,6 @@ body {
   .hero {
     background-image: url('./img/Header-desk.png');
     justify-content: flex-start;
-    padding: 100vh;
   }
 
   .hero .primary-text {
@@ -684,6 +683,16 @@ body {
 
   .container-contact {
     margin: 100px;
-    width: 50%;
+  }
+
+  .second-text-contact {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #ebebff;
+    text-align: center;
+    align-self: flex-start;
+    margin: 20px 17%;
   }
 }
