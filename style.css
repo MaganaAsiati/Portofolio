@@ -10,7 +10,7 @@
 }
 
 body {
-  background: #e5e5e5;
+  /* background: #e5e5e5; */
   margin: 0;
   font-family: "Poppins", sans-serif;
 }
@@ -54,6 +54,7 @@ body {
   padding-bottom: 114px;
   padding-left: 24px;
   padding-right: 24px;
+  height: 100vh;
 }
 
 .hero .premary-text {
@@ -227,12 +228,14 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 65px 0;
 }
 
 .card-item {
   border: 1px solid #7a869a;
-  height: 552px;
-  width: 327px;
+  width: 80%;
+  max-width: 330px;
+  margin: 0 auto;
   margin-bottom: 2.5rem;
   left: 24px;
   top: 114px;
@@ -244,11 +247,11 @@ body {
 }
 
 .card-image {
-  height: 220px;
-  width: 295px;
-  left: 16px;
-  top: 16px;
-  border-radius: 8px;
+  max-width: 100%;
+}
+
+.img-container {
+  width: 100%;
 }
 
 .list-conatiner {
@@ -283,6 +286,7 @@ body {
   margin-top: 2rem;
   border: 1px solid #396df2;
   border-radius: 6px;
+  cursor: pointer;
 }
 
 .lang-container {
@@ -429,6 +433,7 @@ body {
 .knowledge .languages li {
   display: flex;
   align-items: center;
+  flex-direction: column;
   background-color: #f7f7f9;
   height: 66.72px;
   width: 100%;
@@ -530,5 +535,126 @@ body {
 
   .nav-item {
     margin-left: 50px;
+  }
+
+  .hero {
+    background-image: url('./img/Header-desk.png');
+  }
+
+  .hero .primary-text {
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+
+  .hero .secondary-text {
+    margin: 10px 50px;
+    max-width: 650px;
+  }
+
+  .hero .headline {
+    margin: 10px 50px;
+  }
+
+  .headline-img {
+    margin: 10px 50px;
+  }
+
+  .card-item.flex-center-culomn {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 20px auto;
+    height: auto;
+    max-width: 90%;
+  }
+
+  .card-item.flex-center-culomn:nth-child(2n+2) {
+    flex-direction: row-reverse;
+  }
+
+  .img-container {
+    height: 365px;
+    width: 665px;
+    margin: 0 20px;
+  }
+
+  .img-container img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .list {
+    justify-content: unset;
+  }
+
+  .list span {
+    margin: 0 10px;
+  }
+
+  .knowledge .kn_1 {
+    max-width: 480px;
+  }
+
+  .knowledge .languages li {
+    max-width: 480px;
+  }
+
+  .about-me .title {
+    padding-top: 5rem;
+    padding-left: 4rem;
+  }
+
+  .about-me .info {
+    padding: 0 0 0 4rem;
+    margin-top: 1rem;
+  }
+
+  .about-me .connect {
+    padding: 0 4rem;
+  }
+
+  .about-me .social-media {
+    padding: 0 4rem;
+  }
+
+  .about-me .resume-btn {
+    margin-left: 4rem;
+  }
+
+  .knowledge {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .about-me {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+
+  .about-me .knowledges {
+    width: 58%;
+    margin-top: 0;
+    padding-top: 5rem;
+  }
+
+  .about-me .left-content {
+    width: 42%;
+  }
+
+  .knowledges .knowledge {
+    width: 80%;
+    margin: 0 auto;
+    justify-content: flex-start;
+  }
+
+  .knowledge .languages {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-self: flex-start;
+  }
+
+  .right-container {
+    padding-top: 36px;
   }
 }
