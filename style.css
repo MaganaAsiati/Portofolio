@@ -10,7 +10,7 @@
 }
 
 body {
-  background: #f7f7f9;
+  background: #e5e5e5;
   margin: 0;
   font-family: "Poppins", sans-serif;
 }
@@ -21,11 +21,12 @@ body {
   padding-bottom: 14px;
   padding-left: 24px;
   padding-right: 24px;
-}
-
-.navbar .container {
   display: flex;
   place-content: space-between;
+}
+
+.menu-wrapper {
+  max-width: 100%;
 }
 
 .navbar .logo {
@@ -39,6 +40,10 @@ body {
   align-items: center;
   text-align: center;
   color: #6070ff;
+}
+
+.nav-list {
+  display: none;
 }
 
 .hero {
@@ -510,4 +515,20 @@ body {
 
 .contact-input {
   flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-wrapper {
+    display: none;
+  }
+
+  .nav-list {
+    display: flex;
+    align-content: space-between;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .nav-item {
+    margin-left: 50px;
+  }
 }
