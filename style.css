@@ -450,24 +450,27 @@ body {
 .knowledge .languages {
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+  align-items: flex-start;
 }
 
 .knowledge .languages li {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
   background-color: #f7f7f9;
   height: 66.72px;
   width: 100%;
   margin-bottom: 2rem;
   border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.img-language-item {
+  display: flex;
+  justify-self: center;
 }
 
 .knowledge .languages li img {
-  padding: 0 1.8rem;
+  padding: 0 16px 0 12px;
 }
 
 .knowledge .languages li a {
@@ -572,9 +575,14 @@ body {
     margin-left: 50px;
   }
 
+  .nav-item a {
+    color: #344563;
+  }
+
   .hero {
     background-image: url("./img/Header-desk.png");
     justify-content: flex-start;
+    margin-bottom: -20px;
   }
 
   .hero .container {
@@ -599,6 +607,12 @@ body {
     margin: 20px 50px;
     justify-content: flex-start;
     max-width: 30%;
+  }
+
+  .cards-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 4rem;
   }
 
   .card-item.flex-center-culomn {
@@ -638,7 +652,23 @@ body {
   }
 
   .knowledge .languages li {
-    max-width: 480px;
+    margin: 0 8px;
+    width: 200px !important;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    border-radius: 8px;
+  }
+
+  .knowledge .languages li img {
+    border: solid pink;
+    padding: 12px 0;
+  }
+
+  .knowledge .languages li a {
+    /* padding: 12px; */
   }
 
   .about-me .title {
@@ -685,7 +715,7 @@ body {
   }
 
   .knowledges .knowledge {
-    width: 80%;
+    /* width: 80%; */
     margin: 0 auto;
     justify-content: flex-start;
   }
