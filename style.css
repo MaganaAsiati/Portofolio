@@ -694,14 +694,6 @@ body {
     text-align: center;
   }
 
-  .text-area {
-    width: 400px;
-  }
-
-  .text-area-large {
-    width: 400px;
-  }
-
   .container-contact {
     margin: 100px;
   }
@@ -714,14 +706,21 @@ body {
     color: #ebebff;
     text-align: center;
     align-self: flex-start;
-    margin: 1px 17%;
+    margin: 0 0 30px 0;
   }
 
   .nav-logo {
     margin: 0;
   }
 
+  .contact-contact-container {
+    justify-content: center;
+    margin: 100px 20%;
+    max-width: 100%;
+  }
+
   .container-form {
-    padding: 0 450px;
+    width: 70%;
+    margin: auto;
   }
 }
