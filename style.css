@@ -42,6 +42,10 @@ body {
   color: #6070ff;
 }
 
+.cl-btn {
+  padding-left: 2rem;
+}
+
 .nav-list {
   display: none;
 }
@@ -143,6 +147,7 @@ body {
   color: #fff;
   text-align: center;
   align-self: flex-start;
+  padding-bottom: 20px;
 }
 
 .second-text-contact {
@@ -289,6 +294,16 @@ body {
   border: 1px solid #396df2;
   border-radius: 6px;
   cursor: pointer;
+}
+
+.btn .resume-btn:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.see-btn:hover {
+  background-color: #6070ff;
+  color: #fff;
 }
 
 .lang-container {
@@ -505,7 +520,12 @@ body {
   transition: ease color 2s;
 }
 
-.about-me .resume-btn {
+.btn:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.about-me .btn .resume-btn {
   margin-left: 2rem;
   text-decoration: none;
   margin-top: 1rem;
@@ -526,7 +546,7 @@ body {
 
 @media screen and (min-width: 768px) {
   * {
-    margin: 0 auto;
+    margin: 0;
   }
 
   .menu-wrapper {
@@ -534,6 +554,7 @@ body {
   }
 
   .nav-list {
+    padding: 0 50px;
     display: flex;
     align-content: space-between;
     font-family: "Poppins", sans-serif;
@@ -609,8 +630,8 @@ body {
   }
 
   .about-me .title {
-    padding-top: 5rem;
-    padding-left: 4rem;
+    margin: 0;
+    padding-left: 60px;
   }
 
   .about-me .info {
@@ -626,8 +647,8 @@ body {
     padding: 0 4rem;
   }
 
-  .about-me .resume-btn {
-    margin-left: 4rem;
+  .cl-btn {
+    padding-left: 4rem;
   }
 
   .knowledge {
@@ -693,6 +714,14 @@ body {
     color: #ebebff;
     text-align: center;
     align-self: flex-start;
-    margin: 20px 17%;
+    margin: 1px 17%;
+  }
+
+  .nav-logo {
+    margin: 0;
+  }
+
+  .container-form {
+    padding: 0 450px;
   }
 }
