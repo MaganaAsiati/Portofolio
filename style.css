@@ -57,7 +57,6 @@ body {
   background-color: white;
   border-radius: 0 0 0 100px;
   padding-top: 114px;
-  padding-bottom: 114px;
   padding-left: 24px;
   padding-right: 24px;
   height: 100vh;
@@ -68,7 +67,7 @@ body {
   width: 600px;
   left: 24px;
   top: 114px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -81,13 +80,19 @@ body {
   align-items: center;
 }
 
+.hero .secondary-text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+
 .hero .secondary-section {
   position: static;
   width: 327px;
   height: 146px;
   left: 24px;
   top: 276px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -103,7 +108,7 @@ body {
   position: static;
   left: 0;
   top: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -124,7 +129,8 @@ body {
   display: flex;
   margin-top: 12px;
   padding-left: 0;
-  justify-content: space-between;
+  justify-content: start;
+  align-items: flex-start;
   gap: 20px;
 }
 
@@ -273,7 +279,7 @@ body {
 
 .list-item {
   color: #7a869a;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
@@ -567,13 +573,11 @@ body {
   }
 
   .hero {
-    background-image: url('./img/Header-desk.png');
+    background-image: url("./img/Header-desk.png");
     justify-content: flex-start;
-    border: solid red;
   }
 
   .hero .container {
-    background-color: green;
     margin: auto 160px;
   }
 
@@ -606,7 +610,7 @@ body {
     max-width: 90%;
   }
 
-  .card-item.flex-center-culomn:nth-child(2n+2) {
+  .card-item.flex-center-culomn:nth-child(2n + 2) {
     flex-direction: row-reverse;
   }
 
@@ -697,7 +701,7 @@ body {
   }
 
   .contact {
-    background-image: url('./img/Header-desk.png');
+    background-image: url("./img/Header-desk.png");
     max-width: unset;
     text-align: center;
   }
