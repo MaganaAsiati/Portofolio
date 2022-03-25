@@ -328,7 +328,9 @@ body {
 
 .about-myself .primary-text {
   color: #172b4d;
-  font-size: 32px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
 }
 
 .about-myself .secondary-text {
@@ -567,6 +569,12 @@ body {
   .hero {
     background-image: url('./img/Header-desk.png');
     justify-content: flex-start;
+    border: solid red;
+  }
+
+  .hero .container {
+    background-color: green;
+    margin: auto 160px;
   }
 
   .hero .primary-text {
@@ -584,7 +592,7 @@ body {
   }
 
   .headline-img {
-    margin: 20px 30px;
+    margin: 20px 50px;
     justify-content: flex-start;
     max-width: 30%;
   }
