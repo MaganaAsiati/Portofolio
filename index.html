@@ -11,20 +11,20 @@
 <body>
   <header class="navbar">
     <div class="nav-logo">
-    <a  class="logo" href="#">My logo</a>
-  </div>
-  <nav class="container">
-    <div class="menu-wrapper">
-      <img class="mobile-menu" src="img/Union.png" alt="open navigation">
+      <a  class="logo" href="#">My logo</a>
     </div>
-    <ul class="nav-list">
-      <li class="nav-item">Portfolio</li>
-      <li class="nav-item">about</li>
-      <li class="nav-item">contact</li>
-    </ul>
-  </nav>
-</header>
-<section class="hero">
+    <nav class="container">
+      <div class="menu-wrapper">
+        <img class="mobile-menu" src="img/Union.png" alt="open navigation">
+      </div>
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
+        <li class="nav-item"><a href="#about">about</a></li>
+        <li class="nav-item"><a href="#contact">contact</a></li>
+      </ul>
+    </nav>
+  </header>
+<section id="portfolio" class="hero">
   <div class="container">
     <h2 class="primary-text">I’m Asiati Magana <br> Glade to see you!</h2>
     <p class="secondary-text"> 
@@ -53,7 +53,6 @@
           <img class="card-image" src="img/Snapshoot-Portfolio1.png" alt="Portfolio Portfolio">
         </div>
         <div class="right-container">
-
           <div class="list-conatiner">
             <h2>Tonic</h2>
              <div class="list">
@@ -175,11 +174,7 @@
 
     </ul>
     </div>
-
-
- 
-
-</section>
+  </section>
 
 <section id="about" class="about-me">
   <div class="left-content">
@@ -299,17 +294,17 @@
         </span>
       </h2>
       <ul class="languages">
-        <li>
+        <li class="languag-container">
           <img src="img/js_logo.png" alt="JavaScript" />
-          <a href="#">JavaScript</a>
+          <a class="img-language-item"href="#">JavaScript</a>
         </li>
-        <li>
+        <li class="languag-container">
           <img src="img/html_logo.png" alt="HTML" />
-          <a href="#">HTML</a>
+          <a class="img-language-item href="#">HTML</a>
         </li>
-        <li>
+        <li class="languag-container">
           <img src="img/css_logo.png" alt="CSS" />
-          <a href="#">CSS</a>
+          <a class="img-language-item href="#">CSS</a>
         </li>
       </ul>
     </li>
@@ -359,23 +354,22 @@
     </li>
   </ul>
 </section>
-    <footer id="contact" class="contact">
-      <div class="contact-contact-container">
-      <div class="container-contact">
-        <h2 class="first-text-contact"> Contact me</h2>
-        <p class="second-text-contact">If you have an application you are interested in developing, a feature that you need built or a
-            project that
-            needs coding. I’d love to help with it </p>
-      </div>  
-      <form class="container-form" action="https://formspree.io/f/xgedzbjq" method="post">
-        <input id="name" class="text-area" type="text" name="name" maxlength="30" required placeholder="name">
-        <input id="email" class="text-area" type="email" name="email"  required
-          placeholder="email">
-        <textarea id="message" class="text-area-large" placeholder="Write your message" maxlength="500" required></textarea>
-        <button class="btn-container-contact" type="submit" name="submit">Get In Touch</button>
-      </form>
+  <footer id="contact" class="contact">
+    <div class="contact-contact-container">
+    <div class="container-contact">
+      <h2 class="first-text-contact"> Contact me</h2>
+      <p class="second-text-contact">If you have an application you are interested in developing, a feature that you need built or a
+          project that
+          needs coding. I’d love to help with it </p>
+    </div>  
+    <form class="container-form" action="https://formspree.io/f/xgedzbjq" method="post">
+      <input id="name" class="text-area" type="text" name="name" maxlength="30" required placeholder="name">
+      <input id="email" class="text-area" type="email" name="email"  required
+        placeholder="email">
+      <textarea id="message" class="text-area-large" placeholder="Write your message" maxlength="500" required></textarea>
+      <button class="btn-container-contact" type="submit" name="submit">Get In Touch</button>
+    </form>
     </div>
-
-    </footer>
+  </footer>
   </body>
 </html>
