@@ -209,7 +209,7 @@ body {
   cursor: pointer;
   padding: 8px;
   align-self: flex-start;
-  transition: ease colo;
+  transition: ease color 2s;
 }
 
 .btn-container-contact:hover {
@@ -301,6 +301,7 @@ body {
   border: 1px solid #396df2;
   border-radius: 6px;
   cursor: pointer;
+  transition: ease color 2s;
 }
 
 .btn .resume-btn:hover {
