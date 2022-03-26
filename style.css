@@ -624,6 +624,10 @@ body {
     max-width: 90%;
   }
 
+  .langage-item {
+    margin-left: 0;
+  }
+
   .card-item.flex-center-culomn:nth-child(2n + 2) {
     flex-direction: row-reverse;
   }
@@ -643,10 +647,6 @@ body {
     justify-content: unset;
   }
 
-  .list span {
-    margin: 0 10px;
-  }
-
   .knowledge .kn_1 {
     max-width: 480px;
   }
@@ -663,12 +663,7 @@ body {
   }
 
   .knowledge .languages li img {
-    border: solid pink;
     padding: 12px 0;
-  }
-
-  .knowledge .languages li a {
-    /* padding: 12px; */
   }
 
   .about-me .title {
@@ -759,6 +754,11 @@ body {
     justify-content: center;
     margin: 100px 20%;
     max-width: 100%;
+  }
+
+  .list-item {
+    margin-left: 0;
+    margin-right: 10px;
   }
 
   .container-form {
