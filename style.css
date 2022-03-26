@@ -657,7 +657,7 @@ body {
   .knowledge .languages li {
     margin: 0 8px 0 20px;
     width: 100px !important;
-    height: 120px;
+    height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -666,7 +666,7 @@ body {
   }
 
   .knowledge .languages li img {
-    padding: 12px 0;
+    padding: 12px 3px;
   }
 
   .about-me .title {
