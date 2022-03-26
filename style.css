@@ -590,21 +590,23 @@ body {
   }
 
   .hero .primary-text {
-    margin-left: 50px;
+    font-size: 48px;
+    margin-left: 30px;
     margin-top: 30px;
   }
 
   .hero .secondary-text {
-    margin: 10px 50px;
-    max-width: 650px;
+    margin: 10px 20px 10px 30px;
+    max-width: 100%;
+    font-size: 20px;
   }
 
   .hero .headline {
-    margin: 10px 50px;
+    margin: 10px 30px;
   }
 
   .headline-img {
-    margin: 20px 50px;
+    margin: 20px 30px;
     justify-content: flex-start;
     max-width: 30%;
   }
@@ -649,11 +651,12 @@ body {
 
   .knowledge .kn_1 {
     max-width: 480px;
+    margin: 0 0 0 20px;
   }
 
   .knowledge .languages li {
-    margin: 0 8px;
-    width: 200px !important;
+    margin: 0 8px 0 20px;
+    width: 100px !important;
     height: 120px;
     display: flex;
     flex-direction: column;
@@ -681,7 +684,7 @@ body {
   }
 
   .about-me .social-media {
-    padding: 0 4rem;
+    padding: 1rem 4rem;
   }
 
   .cl-btn {
@@ -718,7 +721,8 @@ body {
   .knowledge .languages {
     flex-direction: row;
     justify-content: flex-start;
-    align-self: flex-start;
+    margin-right: 120px;
+    width: unset;
   }
 
   .right-container {
