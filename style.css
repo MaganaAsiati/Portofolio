@@ -209,6 +209,7 @@ body {
   cursor: pointer;
   padding: 8px;
   align-self: flex-start;
+  transition: ease colo;
 }
 
 .btn-container-contact:hover {
@@ -511,6 +512,7 @@ body {
   align-items: center;
   padding-left: 2rem;
   margin-top: 2.4rem;
+  padding-bottom: 1rem;
 }
 
 .social-media svg {
