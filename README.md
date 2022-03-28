@@ -5,7 +5,7 @@
 
 ## Live Demon
 
-> click here to view Live website Demon`https://maganaasiati.github.io/Portofolio/`
+> (click here to view Live website Demon)[https://maganaasiati.github.io/Portofolio/]
 ## Description
 
 > This is my  portofolio which discribe my qualification. And here you found my recent works.  
@@ -18,7 +18,7 @@
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
-1. Download the `Zip` or `git clone hhttps://github.com/MaganaAsiati/math_magicians.git`
+1. Download the `Zip` or `(git clone)[https://github.com/MaganaAsiati/math_magicians.git]`
 2. `cd Hello-Microverse`
 3. Then open in your browser by using `live server`
 
