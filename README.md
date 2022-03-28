@@ -5,7 +5,7 @@
 
 ## Live Demon
 
-> (click here to view Live website Demon)[https://maganaasiati.github.io/Portofolio/]
+> [https://maganaasiati.github.io/Portofolio/](https://maganaasiati.github.io/Portofolio/)
 ## Description
 
 > This is my  portofolio which discribe my qualification. And here you found my recent works.  
