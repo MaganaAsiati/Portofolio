@@ -60,6 +60,10 @@ body {
 
 .nav-list-menu .mobile-menu-exit {
   display: none;
+  color: #fff;
+  margin-right: 35px;
+  margin-top: 5px;
+  cursor: pointer;
 }
 
 .nav-list-menu.open .mobile-menu-exit {
