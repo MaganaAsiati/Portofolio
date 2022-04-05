@@ -30,6 +30,10 @@ body {
   max-width: 100%;
 }
 
+.mobile-menu {
+  cursor: pointer;
+}
+
 .mobile-menu-exit {
   position: fixed;
   right: 0;
