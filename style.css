@@ -23,10 +23,55 @@ body {
   padding-right: 24px;
   display: flex;
   place-content: space-between;
+  position: relative;
 }
 
 .menu-wrapper {
   max-width: 100%;
+}
+
+.mobile-menu-exit {
+  position: fixed;
+  right: 0;
+  padding: 10px;
+}
+
+.nav-list {
+  display: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-list-menu.open {
+  height: 100vh;
+  width: 100%;
+  background-color: #6070ff;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0.9;
+}
+
+.nav-list-menu .mobile-menu-exit {
+  display: none;
+}
+
+.nav-list-menu.open .mobile-menu-exit {
+  display: block;
+}
+
+.nav-list-menu.open .nav-list {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.nav-list-menu.open .nav-list .nav-item a {
+  color: #e5e5e5;
+  font-size: 32px;
 }
 
 .navbar .logo {
@@ -44,10 +89,6 @@ body {
 
 .cl-btn {
   padding-left: 2rem;
-}
-
-.nav-list {
-  display: none;
 }
 
 .hero {
@@ -215,17 +256,6 @@ body {
 .btn-container-contact:hover {
   background-color: #6070ff;
   color: #fff;
-}
-
-.erro {
-  width: 100%;
-  text-align: center;
-  align-content: center;
-  font-size: 80%;
-  color: white;
-  background-color: rgb(247, 70, 70);
-  border-radius: 5px;
-  box-sizing: border-box;
 }
 
 .container-form {
@@ -474,11 +504,6 @@ body {
   padding: 0 16px 0 12px;
 }
 
-.knowledge .languages li a {
-  color: #253858;
-  font-size: 15px;
-}
-
 .knowledge .frameworks {
   justify-content: center;
   flex-direction: column;
@@ -499,11 +524,6 @@ body {
 
 .knowledge .frameworks li img {
   padding: 0 1.8rem;
-}
-
-.knowledge .frameworks li a {
-  color: #253858;
-  font-size: 15px;
 }
 
 .social-media {
