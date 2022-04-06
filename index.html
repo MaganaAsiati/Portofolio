@@ -5,7 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio: setup and mobile version skeleton</title>
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,14 +15,18 @@
       <a  class="logo" href="#">My logo</a>
     </div>
     <nav class="container">
+      
       <div class="menu-wrapper">
-        <img class="mobile-menu" src="img/Union.png" alt="open navigation">
+        <img id="mobile-menu" class="mobile-menu" src="img/Union.png" alt="open navigation">
       </div>
-      <ul class="nav-list">
+      <div id="nav-list-menu" class="nav-list-menu">
+        <i class="fa fa-fw fa-x mobile-menu-exit" id="mobile-menu-exit"></i>
+        <ul id="nav-list" class="nav-list">
         <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
-        <li class="nav-item"><a href="#about">about</a></li>
-        <li class="nav-item"><a href="#contact">contact</a></li>
+        <li class="nav-item"><a href="#about">About</a></li>
+        <li class="nav-item"><a href="#contact">Contact</a></li>
       </ul>
+    </div>
     </nav>
   </header>
 <section id="portfolio" class="hero">
@@ -315,20 +320,6 @@
           <img src="img/arrow_right.png" alt="arrow_right">
         </span>
       </h2>
-      <ul class="frameworks">
-        <li>
-          <img src="images/Ellipse_1.png" alt="JavaScript" />
-          <a href="">JavaScript</a>
-        </li>
-        <li>
-          <img src="images/Ellipse_2.png" alt="HTML" />
-          <a href="">HTML</a>
-        </li>
-        <li>
-          <img src="images/Ellipse_3.png" alt="CSS" />
-          <a href="">CSS</a>
-        </li>
-      </ul>
     </li>
     <li class="knowledge">
       <h2 class="kn_1">
@@ -341,14 +332,6 @@
         <li>
           <img src="images/Ellipse_1.png" alt="JavaScript" />
           <a href="">JavaScript</a>
-        </li>
-        <li>
-          <img src="images/Ellipse_2.png" alt="HTML" />
-          <a href="">HTML</a>
-        </li>
-        <li>
-         <img src="images/Ellipse_3.png" alt="CSS" />
-          <a href="">CSS</a>
         </li>
       </ul>
     </li>
@@ -371,5 +354,7 @@
     </form>
     </div>
   </footer>
+
+  <script type="module" src="./js/script.js"></script>
   </body>
 </html>
