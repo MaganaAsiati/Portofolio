@@ -9,7 +9,7 @@ const data = [
       year: 2015,
     },
     fullDesciption:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eius quae optio et quas, quibusdam quis excepturi omnis? Quos, officia accusamus. Aperiam, molestiae beatae numquam vitae modi est quod laboriosam! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi voluptatum quibusdam adipisci voluptates magnam ipsam dolores ad! Adipisci veritatis, sint perspiciatis reiciendis omnis, maiores incidunt, ex aut inventore deleniti nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil mollitia deleniti nobis facilis delectus consequuntur, culpa commodi quia repellendus molestias doloribus praesentium voluptas nisi sint, similique repellat atque maiores aperiam.    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita ex quam officia ea dolor. Ea quasi in id dolorum ',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eius quae optio et quas, quibusdam quis excepturi omnis? Quos, officia accusamus. Aperiam, molestiae elit. atque maiores aperiam.    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita ex quam officia ea dolor. Ea quasi in id dolorum ',
     detail:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     technologies: ['Html', 'Css', 'Javascript', 'github', 'Bootstrap'],
