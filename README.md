@@ -30,7 +30,13 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@asia_magana](https://twitter.com/asia_magana)
 - LinkedIn: [Asia Magana](https://www.linkedin.com/in/asia-magana-60b451200/)
 
+## Collaborators :
 
+👤 **Eid Hachem**
+
+- GitHub: [@EidHachem ](https://github.com/EidHachem)
+- Twitter: [@eid-hachem1](https://twitter.com/eidhachem1)
+- LinkedIn: [Eid Hachem](https://www.linkedin.com/in/eidhachem1/)
 
 ## 🤝 Contributing
 
