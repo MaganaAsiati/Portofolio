@@ -110,9 +110,6 @@
 .card-popup-window .main-container .languages {
   display: flex;
   margin-top: 5px;
-
-  /* width: 70%; */
-  flex-wrap: wrap;
 }
 
 .card-popup-window .main-container .languages li {
@@ -149,8 +146,11 @@
 .card-popup-window .main-container .links .btn {
   display: flex;
   align-items: center;
-  font-size: 15px;
+  font-size: 10px;
   font-weight: 500;
+  border-radius: 6px;
+  letter-spacing: normal;
+  height: 30px;
 }
 
 .card-popup-window .main-container .links .btn:first-child {
@@ -191,6 +191,10 @@
 }
 
 @media screen and (min-width: 600px) {
+  .card-popup-window .main-container .languages {
+    flex-wrap: wrap;
+  }
+
   .card-popup-window .main-container .card-image img {
     max-width: 90%;
   }
@@ -238,6 +242,7 @@
   .card-popup-window .left-container {
     flex-direction: row;
     width: 100%;
+    margin-top: 40px;
   }
 
   .card-popup-window .detail {
