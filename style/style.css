@@ -306,7 +306,7 @@ body {
   width: 100%;
 }
 
-.list-conatiner {
+.list-container {
   width: 100%;
 }
 
@@ -354,13 +354,14 @@ body {
 .lang-container {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .langage-item {
   background: #ebebff;
   border-radius: 8px;
   padding: 2px 4px;
-  margin: 0 8px;
+  margin: 5px 8px;
   font-size: 13px;
   color: #396df2;
   border-color: #396df2;
@@ -738,7 +739,7 @@ body {
     padding-top: 5rem;
   }
 
-  .about-me .left-content {
+  .about-me .left-container {
     width: 42%;
   }
 
@@ -793,6 +794,10 @@ body {
   .list-item {
     margin-left: 0;
     margin-right: 10px;
+  }
+
+  .list-item-btn {
+    margin-left: 5px;
   }
 
   .container-form {
