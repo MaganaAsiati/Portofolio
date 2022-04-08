@@ -34,19 +34,19 @@ function outputMessage(accepted) {
 
 const form = document.querySelector('.container-form');
 
-form.addEventListener('submit', (ele) => {
-  ele.preventDefault();
+form.addEventListener('submit', (element) => {
   const email = document.getElementById('email').value;
   const emailRegex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
   if (email !== email.toLowerCase()) {
+    element.preventDefault();
     outputMessage(false);
     return;
   }
   if (!emailRegex.test(email)) {
+    element.preventDefault();
     outputMessage(false);
     return;
   }
-  form.submit();
-  form.reset();
+  outputMessage(true);
 });
