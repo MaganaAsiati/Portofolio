@@ -22,3 +22,31 @@ menuButtonClose.addEventListener('click', menuToggle);
 navItems.forEach((navItem) => {
   navItem.addEventListener('click', menuToggle);
 });
+function outputMessage(accepted) {
+  const message = document.getElementById('msg');
+  if (accepted) {
+    message.classList.remove('error');
+  } else {
+    message.classList.add('error');
+    message.innerHTML = 'Please enter a correct email address format';
+  }
+}
+
+const form = document.querySelector('.container-form');
+
+form.addEventListener('submit', (element) => {
+  element.preventDefault();
+  const email = document.getElementById('email').value;
+  const emailRegex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+  if (email !== email.toLowerCase()) {
+    outputMessage(false);
+    return;
+  }
+  if (!emailRegex.test(email)) {
+    outputMessage(false);
+    return;
+  }
+  form.submit();
+  form.reset();
+});
