@@ -34,8 +34,8 @@ function outputMessage(accepted) {
 
 const form = document.querySelector('.container-form');
 
-form.addEventListener('submit', (element) => {
-  element.preventDefault();
+form.addEventListener('submit', (ele) => {
+  ele.preventDefault();
   const email = document.getElementById('email').value;
   const emailRegex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
