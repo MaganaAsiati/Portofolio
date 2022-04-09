@@ -32,7 +32,7 @@ function outputMessage(accepted) {
   }
 }
 
-const form = document.querySelector('.container-form');
+form = document.querySelector('.container-form');
 
 form.addEventListener('submit', (element) => {
   const email = document.getElementById('email').value;
@@ -48,5 +48,6 @@ form.addEventListener('submit', (element) => {
     outputMessage(false);
     return;
   }
+  form.submit();
   outputMessage(true);
 });
