@@ -67,5 +67,23 @@ const data = [
     liveDemo: 'https://maganaasiati.github.io/Portofolio/',
     sourceCode: 'https://github.com/MaganaAsiati/Portofolio',
   },
+  {
+    id: 5,
+    image: 'img/Screenshot_portofolio.png',
+    name: 'Awesome_book',
+    description: {
+      type: 'Microverse',
+      interface: 'frontend Dev',
+      year: 2022,
+    },
+    fullDesciption:
+      'In this project, we build a basic website that allows users to add/remove books from a list. we achieve that by using JavaScript objects and arrays. You will also need to dynamically modify the DOM and add basic events.',
+    detail:
+    'Use semantic HTML tags,Apply best practices in HTML code, Use CSS box model,  Use CSS selectors correctly,Use CSS selectors correctly, Use CSS selectors correctly, Demonstrate ability to create UIs adaptable to different screen - sizes using media queries,Use GitHub Pages to deploy web pages, Apply JavaScript best practices and language style guides in code,Use JavaScript to manipulate DOM elements, Use JavaScript events, Use objects to store and access data and finally I Build awesome book .',
+    technologies: ['Html', 'Css', 'Javascript', 'github'],
+    liveDemo: 'https://maganaasiati.github.io/Portofolio/',
+    sourceCode: 'https://github.com/MaganaAsiati/Portofolio',
+  },
+
 ];
 export default data;
