@@ -43,9 +43,7 @@ const closedWind = document.querySelector('#close-pop');
 
 const arr = [seeProjectBtn, seeProjectImg];
 arr.forEach((item) => {
-  console.log('Hi');
   item.forEach((link) => {
-    console.log('Ha');
     link.addEventListener('click', (e) => {
       e.preventDefault();
       cardPopupWindow.classList.add('open-pop-up');
