@@ -8,10 +8,8 @@ function menuToggle() {
     navListMenu.classList.remove('open');
     menuButtonOpen.style.display = 'block';
     menuButtonClose.style.display = 'none';
-    navListMenu.style.display = 'none';
   } else {
     navListMenu.classList.add('open');
-    menuButtonOpen.style.display = 'none';
     menuButtonClose.style.display = 'block';
     navListMenu.style.display = 'block';
   }
@@ -20,7 +18,10 @@ function menuToggle() {
 menuButtonOpen.addEventListener('click', menuToggle);
 menuButtonClose.addEventListener('click', menuToggle);
 navItems.forEach((navItem) => {
-  navItem.addEventListener('click', menuToggle);
+  navItem.addEventListener('click', () => {
+    navListMenu.classList.remove('open');
+    menuButtonClose.style.display = 'none';
+  });
 });
 function outputMessage(accepted) {
   const message = document.getElementById('msg');
